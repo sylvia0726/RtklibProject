@@ -1,0 +1,122 @@
+﻿  convgpx.c
+  convkml.c
+  convrnx.c
+  datum.c
+  download.c
+D:\code\C\rtklib\RtklibProject\src\download.c(136,39): warning C4133: “函数”: 从“const char *”到“LPCWSTR”的类型不兼容
+D:\code\C\rtklib\RtklibProject\src\download.c(297,29): warning C4133: “函数”: 从“char [1024]”到“LPCWSTR”的类型不兼容
+D:\code\C\rtklib\RtklibProject\src\download.c(303,28): warning C4133: “函数”: 从“const char *”到“LPCWSTR”的类型不兼容
+D:\code\C\rtklib\RtklibProject\src\download.c(333,9): warning C4101: “stat”: 未引用的局部变量
+D:\code\C\rtklib\RtklibProject\src\download.c(399,28): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\download.c(561,22): warning C4101: “remot_p”: 未引用的局部变量
+D:\code\C\rtklib\RtklibProject\src\download.c(841,12): warning C4101: “tow”: 未引用的局部变量
+  ephemeris.c
+D:\code\C\rtklib\RtklibProject\src\ephemeris.c(586,30): warning C4090: “=”: 不同的“const”限定符
+  geoid.c
+  gis.c
+D:\code\C\rtklib\RtklibProject\src\gis.c(312,25): warning C4101: “q”: 未引用的局部变量
+  ionex.c
+  lambda.c
+  options.c
+  pntpos.c
+  postpos.c
+  ppp.c
+  ppp_ar.c
+  preceph.c
+  rcvraw.c
+  binex.c
+D:\code\C\rtklib\RtklibProject\src\rcv\binex.c(987,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\rcv\binex.c(1008,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  crescent.c
+  javad.c
+  正在生成代码...
+  正在编译...
+  novatel.c
+  nvs.c
+D:\code\C\rtklib\RtklibProject\src\rcv\nvs.c(107,20): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\rcv\nvs.c(263,23): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  rt17.c
+D:\code\C\rtklib\RtklibProject\src\rcv\rt17.c(1796,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\rcv\rt17.c(1832,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  septentrio.c
+D:\code\C\rtklib\RtklibProject\src\rcv\septentrio.c(236,22): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+D:\code\C\rtklib\RtklibProject\src\rcv\septentrio.c(282,64): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  skytraq.c
+D:\code\C\rtklib\RtklibProject\src\rcv\skytraq.c(202,39): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\rcv\skytraq.c(325,13): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\rcv\skytraq.c(332,39): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  ss2.c
+  ublox.c
+  rinex.c
+D:\code\C\rtklib\RtklibProject\src\rinex.c(240,35): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+  rnx2rtkp.c
+  rtcm.c
+  rtcm2.c
+  rtcm3.c
+  rtcm3e.c
+D:\code\C\rtklib\RtklibProject\src\rtcm3e.c(575,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\rtcm3e.c(595,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\rtcm3e.c(596,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\rtcm3e.c(928,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\rtcm3e.c(929,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\rtcm3e.c(930,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\rtcm3e.c(931,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\rtcm3e.c(932,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  rtkcmn.c
+D:\code\C\rtklib\RtklibProject\src\rtkcmn.c(3289,24): warning C4477: “sprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“WCHAR *”
+D:\code\C\rtklib\RtklibProject\src\rtkcmn.c(3289,24): message : 请考虑在格式字符串中使用“%ls”
+D:\code\C\rtklib\RtklibProject\src\rtkcmn.c(3289,24): message : 请考虑在格式字符串中使用“%lls”
+D:\code\C\rtklib\RtklibProject\src\rtkcmn.c(3289,24): message : 请考虑在格式字符串中使用“%Ls”
+D:\code\C\rtklib\RtklibProject\src\rtkcmn.c(3289,24): message : 请考虑在格式字符串中使用“%ws”
+D:\code\C\rtklib\RtklibProject\src\rtkcmn.c(3292,28): warning C4477: “sprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“WCHAR *”
+D:\code\C\rtklib\RtklibProject\src\rtkcmn.c(3292,28): message : 请考虑在格式字符串中使用“%ls”
+D:\code\C\rtklib\RtklibProject\src\rtkcmn.c(3292,28): message : 请考虑在格式字符串中使用“%lls”
+D:\code\C\rtklib\RtklibProject\src\rtkcmn.c(3292,28): message : 请考虑在格式字符串中使用“%Ls”
+D:\code\C\rtklib\RtklibProject\src\rtkcmn.c(3292,28): message : 请考虑在格式字符串中使用“%ws”
+D:\code\C\rtklib\RtklibProject\src\rtkcmn.c(3349,29): warning C4133: “函数”: 从“char [1024]”到“LPCWSTR”的类型不兼容
+D:\code\C\rtklib\RtklibProject\src\rtkcmn.c(3355,28): warning C4133: “函数”: 从“const char *”到“LPCWSTR”的类型不兼容
+D:\code\C\rtklib\RtklibProject\src\rtkcmn.c(4029,26): warning C4028: 形参 1 与声明不同
+  rtkpos.c
+  rtksvr.c
+D:\code\C\rtklib\RtklibProject\src\rtksvr.c(590,45): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+  sbas.c
+  solution.c
+D:\code\C\rtklib\RtklibProject\src\solution.c(1165,13): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\solution.c(1210,13): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\solution.c(1233,13): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\solution.c(1250,17): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\solution.c(1278,13): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\solution.c(1294,17): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\solution.c(1312,13): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\solution.c(1356,13): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\solution.c(1395,13): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\solution.c(1485,13): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\solution.c(1562,13): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\solution.c(1625,13): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\solution.c(1656,13): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  stream.c
+D:\code\C\rtklib\RtklibProject\src\stream.c(394,31): warning C4133: “函数”: 从“char [128]”到“LPCWSTR”的类型不兼容
+D:\code\C\rtklib\RtklibProject\src\stream.c(409,26): warning C4133: “函数”: 从“char [64]”到“LPCWSTR”的类型不兼容
+D:\code\C\rtklib\RtklibProject\src\stream.c(557,53): warning C4311: “类型强制转换”: 从“HANDLE”到“int”的指针截断
+D:\code\C\rtklib\RtklibProject\src\stream.c(794,12): warning C4101: “rs”: 未引用的局部变量
+D:\code\C\rtklib\RtklibProject\src\stream.c(1025,20): warning C4244: “函数”: 从“SOCKET”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\stream.c(1067,20): warning C4244: “函数”: 从“SOCKET”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\stream.c(1080,20): warning C4244: “函数”: 从“SOCKET”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\stream.c(1529,49): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\stream.c(1553,40): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\stream.c(1558,49): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\stream.c(1578,21): warning C4244: “-=”: 从“__int64”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\stream.c(1619,21): warning C4244: “-=”: 从“__int64”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\stream.c(1913,40): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\stream.c(1917,62): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\stream.c(1923,54): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+D:\code\C\rtklib\RtklibProject\src\stream.c(2140,28): warning C4244: “函数”: 从“SOCKET”转换到“int”，可能丢失数据
+  streamsvr.c
+  正在生成代码...
+  正在编译...
+  tides.c
+  tle.c
+D:\code\C\rtklib\RtklibProject\src\tle.c(276,24): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+    正在创建库 D:\code\C\rtklib\RtklibProject\rtklib\x64\Debug\rtklib.lib 和对象 D:\code\C\rtklib\RtklibProject\rtklib\x64\Debug\rtklib.exp
+  rtklib.vcxproj -> D:\code\C\rtklib\RtklibProject\rtklib\x64\Debug\rtklib.exe
